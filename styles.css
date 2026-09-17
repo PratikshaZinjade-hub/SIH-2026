@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: #173b67;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+.login-box {
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+.login-box h2 {
+    color: #173b67;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 90%;
+    padding: 13px;
+    margin-top: 12px;
+    background: #173b67;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #24598f;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+}
+
+canvas {
+    max-width: 100%;
+    margin: 15px auto;
+}
+/* Admin Dashboard Improvements */
+
+.login-box h2 {
+    margin-top: 20px;
+}
+
+.login-box p {
+    background: #f5f7fa;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.login-box hr {
+    margin: 25px 0;
+}
+
+canvas {
+    max-height: 300px;
+}
+
+button {
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+.dashboard-cards {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    width: 90%;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 180px;
+    text-align: center;
+}
+
+.card h3 {
+    color: #173b67;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #173b67;
+    margin: 0;
+}
+/* Professional Login Page */
+
+.login-box {
+    border: 1px solid #e1e6eb;
+    transition: 0.3s;
+}
+
+.login-box:hover {
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transform: translateY(-2px);
+}
+
+.login-box input:focus,
+.login-box select:focus {
+    outline: none;
+    border-color: #173b67;
+    box-shadow: 0 0 5px rgba(23,59,103,0.2);
+}
+
+.login-box button {
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
